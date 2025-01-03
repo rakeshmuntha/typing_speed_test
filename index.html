@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div id="app">
+        <h1 class="title">Typing Speed Test</h1>
+        
+        <div id="settings">
+            <label for="timeLimit" class="settime">Set Time (seconds): </label>
+            <input type="number" id="timeLimit" value="60">
+            <button id="startGame">Start Game</button>
+            <button id="tryAgain">Try Again</button>
+        </div>
+
+        <div id="stats">
+            <p>Time Left: <span id="timer">60</span> seconds</p>
+            <p>Mistakes: <span id="mistakes">0</span></p>
+                <p>WPM: <span id="wpm">0</span></p>
+        </div>
+
+        <div id="textArea" class="paragraph-container">
+            <div id="paragraph" class="paragraph"></div>
+        </div>
+        
+
+        <div class="input-area">
+            <input type="text" id="inputBox" placeholder="Start typing here..." autofocus>
+        </div>
+        
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>

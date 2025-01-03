@@ -1,0 +1,145 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.title {
+    font-size: 3rem;
+    color: #e2b714;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.body
+{
+    background-color: #323437;
+}
+
+/* Main container */
+#app {
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: #323437;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Settings */
+#settings {
+    margin-bottom: 30px;
+}
+
+#settings input {
+    width: 120px;
+    padding: 10px;
+    margin-right: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3a3a3a;
+    color: #ddd;
+}
+
+#settings button {
+    padding: 10px 20px;
+    background-color: #e2b714;
+    color: #fff;
+    border: none;
+    border-radius: 88px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 25px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#settings button:hover {
+    background-color: #f9c300;
+}
+
+/* Text area */
+#textArea {
+    margin: 30px 0;
+}
+
+#paragraph {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #e5e5e5;
+    margin-bottom: 12px;
+}
+
+.input-area #inputBox {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    background-color: #333;
+    color: #ddd;
+}
+
+/* Error highlighting */
+.input-area #inputBox.red {
+    border: 2px solid #ff4c4c;
+    color: #ff4c4c;
+}
+.settime
+{
+    color: #e0e0e0;
+
+}
+
+/* Stats section */
+#stats {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#stats p {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #e0e0e0;
+}
+
+#timer, #mistakes, #wpm {
+    font-weight: bold;
+    font-size: 20px;
+    color: #e2b714;
+}
+
+/* Try again button */
+
+
+/* Correct and incorrect words */
+.correct {
+    color: #4caf50;
+    text-decoration: underline;
+}
+
+.incorrect {
+    color: #ff4c4c;
+    text-decoration: underline;
+}
+
+.letter {
+    font-size: 1.3em;
+}
+
+.correct-letter {
+    color: rgb(50, 186, 50);
+}
+
+.incorrect-letter {
+    color: #ca4754;
+}
+
+.word.incorrect {
+    color: #ca4754;
+}
