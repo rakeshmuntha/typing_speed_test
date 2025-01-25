@@ -3,7 +3,6 @@
 ## Project Overview
 
 This Typing Speed Test is a web-based application designed to help users improve their typing speed and accuracy. The application features a customizable timer, random paragraphs for practice, real-time feedback on typing mistakes, and a word-per-minute (WPM) calculation to track performance. This project is ideal for anyone looking to practice typing skills, from beginners to advanced typists.
-![type](https://github.com/user-attachments/assets/bcae337c-6c1a-4ea7-9bd7-d0d00a857802)
 
 ## Features
 
