@@ -163,9 +163,7 @@ function resetStats() {
     document.getElementById("wpm").innerText = 0;
     document.getElementById("timer").innerText = parseInt(document.getElementById("timeLimit").value) || 60;
 }
-document.addEventListener('keydown', () => {
+document.getElementById('startGame').addEventListener('click', () => {
     const inputBox = document.getElementById('inputBox');
-    if (document.activeElement !== inputBox) {
-        inputBox.focus();
-    }
+    inputBox.focus();
 });
